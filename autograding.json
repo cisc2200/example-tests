@@ -1,0 +1,13 @@
+{
+    "tests": [
+        {
+            "name": "t0",
+            "setup": "make clean; make test.out",
+            "run": "./test.out",
+            "input": "",
+            "output": "Hello world!",
+            "timeout": 1,
+            "points": 5
+        }
+    ]
+}
