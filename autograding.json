@@ -2,7 +2,7 @@
     "tests": [
         {
             "name": "t0",
-            "setup": "make clean; make test.out",
+            "setup": "make clean test.out",
             "run": "./test.out",
             "input": "",
             "output": "Hello world!",
