@@ -4,6 +4,7 @@
             "name": "t0",
             "setup": "make clean test.out",
             "run": "./test.out",
+            "valgrind": "valgrind -q --leak-check=full ./test.out",
             "input": "",
             "output": "Hello world!",
             "timeout": 1,
